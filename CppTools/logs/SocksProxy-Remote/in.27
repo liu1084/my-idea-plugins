@@ -1,0 +1,65 @@
+source "c:\\Users\\jim.liu\\.IntelliJIdea14\\config\\plugins\\CppTools\\lib\\profile.tcl"
+# version 0.8.3 (Win32) build no. 1 on Feb 28 2012 14:45:38
+# Command: "C:/Users/jim.liu/.IntelliJIdea14/config/plugins/CppTools/lib/cfserver.exe" --idea --catchexceptions --inLogName C:\\Users\\jim.liu\\.IntelliJIdea14\\config\\plugins\\CppTools\\logs\\SocksProxy-Remote\in --outLogName C:\\Users\\jim.liu\\.IntelliJIdea14\\config\\plugins\\CppTools\\logs\\SocksProxy-Remote\out
+# Library: $Id: lib.tcl, 2010/11/26 14:27 shd Exp $
+#timer: 0.005
+source "C:\\Users\\jim.liu\\.IntelliJIdea14\\config\\plugins\\CppTools\\lib\\lib.tcl"
+#timer: 0.006
+use-abs-path
+begin-config cmode
+vc
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\PlatformSDK\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\atlmfc\\include"
+system-include-path "D:\\Java\\jdk1.8.0_92\\include"
+system-include-path "D:\\Java\\jdk1.8.0_92\\include\\win32"
+define WIN32 "1"
+define NDEBUG "1"
+define _WINDOWS "1"
+define _MBCS "1"
+define _AFXDLL "1"
+define _WIN32 "1"
+warning -implicit_cast_to_bool
+#timer: 0.007
+warning +name_never_referenced
+warning -name_used_only_once
+warning +redundant_cast
+warning +redundant_qualifier
+warning +static_call_from_value
+warning -redundant_brackets
+warning +report_multiple_defs
+option +out_errorcodes
+end-config
+begin-config cppmode
+vc++
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\PlatformSDK\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\atlmfc\\include"
+system-include-path "D:\\Java\\jdk1.8.0_92\\include"
+system-include-path "D:\\Java\\jdk1.8.0_92\\include\\win32"
+define WIN32 "1"
+define NDEBUG "1"
+define _WINDOWS "1"
+define _MBCS "1"
+define _AFXDLL "1"
+define _WIN32 "1"
+warning -implicit_cast_to_bool
+warning +name_never_referenced
+warning -name_used_only_once
+warning +redundant_cast
+warning +redundant_qualifier
+warning +static_call_from_value
+warning -redundant_brackets
+warning +report_multiple_defs
+option +out_errorcodes
+end-config
+unused
+startup
+idle
+hilight
+symtab
+gc
+available-quick-fixes
+list-errors
+#timer: 10.431
+quit

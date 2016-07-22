@@ -1,0 +1,54 @@
+<idea-plugin version="2">
+  <id>com.emberjs</id>
+  <name>Ember.js</name>
+  <version>1.5.1</version>
+  <vendor url="https://github.com/turbo87/">Tobias Bieniek</vendor>
+  <description>
+      This plugin provides basic &lt;a href="http://emberjs.com/"&gt;Ember.js&lt;/a&gt; support to all JetBrains IDEs that support JavaScript.
+      &lt;p&gt;Features:&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Ember.js project discovery when imported from existing sources&lt;/li&gt;
+        &lt;li&gt;Automatically sets the language level to ES6&lt;/li&gt;
+        &lt;li&gt;Marks &lt;code&gt;app&lt;/code&gt;, &lt;code&gt;public&lt;/code&gt; and &lt;code&gt;tests&lt;/code&gt; folders as source, resource and test folders&lt;/li&gt;
+        &lt;li&gt;Marks &lt;code&gt;node_modules&lt;/code&gt; and &lt;code&gt;bower_components&lt;/code&gt; as library folders&lt;/li&gt;
+        &lt;li&gt;Enable JSHint using &lt;code&gt;.jshintrc&lt;/code&gt;&lt;/li&gt;
+        &lt;li&gt;Quick navigation via &lt;code&gt;Navigate → Class...&lt;/code&gt; and &lt;code&gt;Navigate → Related Symbol...&lt;/code&gt;for all major app components&lt;/li&gt;
+        &lt;li&gt;Generate Ember.js files via &lt;code&gt;ember generate&lt;/code&gt;&lt;/li&gt;
+        &lt;li&gt;Basic reference resolving and completion for e.g. &lt;code&gt;DS.belongsTo('user')&lt;/code&gt;&lt;/li&gt;
+        &lt;li&gt;Live Templates&lt;/li&gt;
+      &lt;/ul&gt;
+    </description>
+  <change-notes>
+      see &lt;a href="https://github.com/Turbo87/intellij-emberjs/blob/master/CHANGELOG.md"&gt;https://github.com/Turbo87/intellij-emberjs/&lt;/a&gt;
+    
+    </change-notes>
+  <idea-version since-build="141.0"/>
+  <depends>com.intellij.modules.lang</depends>
+  <depends>JavaScript</depends>
+  <depends optional="true">com.dmarcotte.handlebars</depends>
+  <project-components>
+    <component>
+      <implementation-class>com.emberjs.project.EmberProjectComponent</implementation-class>
+      <skipForDefaultProject/>
+    </component>
+  </project-components>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationConfigurable instance="com.emberjs.settings.EmberApplicationConfigurable"/>
+    <moduleType id="EMBER_MODULE" implementationClass="com.emberjs.project.EmberModuleType"/>
+    <moduleBuilder builderClass="com.emberjs.project.EmberModuleBuilder"/>
+    <projectStructureDetector implementation="com.emberjs.project.EmberProjectStructureDetector"/>
+    <fileBasedIndex implementation="com.emberjs.index.EmberClassIndex"/>
+    <fileBasedIndex implementation="com.emberjs.index.EmberNameIndex"/>
+    <gotoClassContributor implementation="com.emberjs.navigation.EmberGotoClassContributor"/>
+    <gotoRelatedProvider implementation="com.emberjs.navigation.EmberGotoRelatedProvider"/>
+    <testFinder implementation="com.emberjs.navigation.EmberTestFinder"/>
+    <psi.referenceContributor language="JavaScript" implementation="com.emberjs.psi.EmberJSReferenceContributor"/>
+    <iconProvider implementation="com.emberjs.icons.EmberIconProvider" order="first"/>
+    <defaultLiveTemplatesProvider implementation="com.emberjs.template.EmberLiveTemplatesProvider"/>
+  </extensions>
+  <actions>
+    <action id="GenerateEmberCode" class="com.emberjs.actions.EmberGenerateCodeAction">
+      <add-to-group group-id="NewGroup" anchor="before" relative-to-action="NewFromTemplate"/>
+    </action>
+  </actions>
+</idea-plugin>

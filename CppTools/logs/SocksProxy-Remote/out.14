@@ -1,0 +1,221 @@
+MESSAGE:|version 0.8.3 (Win32) build no. 1 on Feb 28 2012 14:45:38
+MESSAGE:|Command: "C:/Users/jim.liu/.IntelliJIdea14/config/plugins/CppTools/lib/cfserver.exe" --idea --catchexceptions --inLogName C:\\\\Users\\\\jim.liu\\\\.IntelliJIdea14\\\\config\\\\plugins\\\\CppTools\\\\logs\\\\SocksProxy-Remote\\in --outLogName C:\\\\Users\\\\jim.liu\\\\.IntelliJIdea14\\\\config\\\\plugins\\\\CppTools\\\\logs\\\\SocksProxy-Remote\\out
+MESSAGE:|Library: $Id: lib.tcl, 2010/11/26 14:27 shd Exp $
+<OK:use-abs-path:0>
+<OK:begin-config:0>
+<OK:vc:0>
+<OK:system-include-path:0>
+<OK:system-include-path:0>
+<OK:system-include-path:0>
+<OK:system-include-path:0>
+<OK:system-include-path:0>
+<OK:define:0>
+<OK:define:0>
+<OK:define:0>
+<OK:define:0>
+<OK:define:0>
+<OK:define:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:option:0>
+<OK:end-config:0>
+<OK:begin-config:0>
+<OK:vc++:0>
+<OK:system-include-path:0>
+<OK:system-include-path:0>
+<OK:system-include-path:0>
+<OK:system-include-path:0>
+<OK:system-include-path:0>
+<OK:define:0>
+<OK:define:0>
+<OK:define:0>
+<OK:define:0>
+<OK:define:0>
+<OK:define:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:warning:0>
+<OK:option:0>
+<OK:end-config:0>
+<OK:unused:0>
+<OK:startup:0>
+Heap: 4M/4M; uptime: 0h 0m
+<OK:idle:0>
+<OK:hilight:0>
+<OK:symtab:0>
+<OK:gc:0>
+ANY=1|Any fix available at position
+ARROW_TO_DOT=2|Convert `->' to `.'
+DOT_TO_ARROW=3|Convert `.' to `->'
+DOT_TO_SEMICOLON=4|Convert to `::'
+CAST_TO=5|Insert cast to required type
+CONST_CAST_TO=6|Insert const_cast to required type
+STATIC_CAST_TO=7|Insert static_cast to required type
+DYNAMIC_CAST_TO=8|Insert dynamic_cast to required type
+REINTERPRET_CAST_TO=9|Insert reinterpret_cast to required type
+ADD_CONST_CAST_TO_METHOD_CALL=10|Insert const_cast
+REPLACE_BY_MODE_NAME=11|Replace by mode name
+ADD_FCALL=12|Add ()
+ADD_DEREF=13|Insert *
+ADD_REF=14|Insert &
+REMOVE_DEREF=15|Remove *
+REMOVE_REF=16|Remove &
+CHANGE_DECL_TYPE=17|Change variable type
+SPLIT_DECL_ASSN=18|Split into declaration and assignment
+SPLIT_IF_AND=19|Split && into if's
+ADD_COMPARE_WITH_0=20|Add comparison with 0
+REMOVE_REDUNDANT_QUALIFIER=21|Remove redundant qualifier
+REMOVE_REDUNDANT_CAST=22|Remove redundant cast
+REMOVE_REDUNDANT_BLOCK=23|Remove redundant block
+REMOVE_CALL=24|Remove call
+REMOVE_RETURN_VALUE=25|Remove return value
+REMOVE_UNUSED_DECL=26|Remove unused declaration
+INLINE_VARIABLE=27|Inline variable
+SPLIT_RETURN_STATEMENT=28|Split return statement
+REPLACE_BLOCK_WITH_SEMICOLON=29|Replace block with `;'
+REORDER_INITIALIZERS=30|Reorder initializers
+REPLACE_FOR_BY_WHILE=31|Replace 'for' by 'while'
+REMOVE_FILE_FROM_PROJECT=32|Remove file from the project
+INSERT_SEMICOLON=33|Insert ';'
+RENAME_CONSTRUCTOR=34|Rename constructor
+REMOVE_CONST=35|Remove `const'
+REMOVE_STATIC=36|Remove `static'
+<OK:available-quick-fixes:0>
+1|GENERAL|Error executing GNU compiler: `%0'|1
+2|SEMANTIC|`return' not in function|0
+3|SEMANTIC|`break' not in loop or switch|0
+4|SEMANTIC|`continue' not in loop|0
+5|SEMANTIC|`case' not in switch|0
+6|SEMANTIC|`default' not in switch|0
+7|MODE|Type error: function required|0
+8|MODE|Type error: no constructor for args|0
+9|WARNING|Implicit cast to `bool'|0
+10|WARNING|cast `false' to pointer|0
+11|WARNING|Redundant qualifier|0
+12|OBS_WARNING|Redundant cast|0
+13|SEMANTIC|constructor not in corresponding class|0
+14|SEMANTIC|duplicate storage qualifier|0
+15|SEMANTIC|Duplicate definition of `%0'|1
+16|SEMANTIC|Undefined identifier `%0'|1
+17|SEMANTIC|Type required: `%0'|1
+18|ERROR|Identifier `%0' defined more than once|1
+19|INFO|Identifier `%0' never referenced|1
+20|OBS_WARNING|Identifier `%0' not defined|1
+21|ERROR|Identifier `%0' not defined|1
+22|INFO|Identifier `%0' used only once|1
+23|SYNTAX|lexing: invalid char `%0'|1
+24|SYNTAX|lexing: %1 char `%0'|2
+25|SYNTAX|lexing: unterminated string, beginning at `%0'|1
+26|SYNTAX|lexing: unterminated char, beginning at `%0'|1
+27|SYNTAX|Required: `%2' %1 of `%0'|3
+28|MODE|%0|1
+29|WARNING|%0|1
+30|PP_WARNING|#undef: macro '%0' is not defined|1
+31|PP_WARNING|#define: macro '%0' is already defined|1
+32|PP_WARNING|User-defined warning: <%0>|1
+33|PREPROCESSOR|User-defined error: <%0>|1
+34|PREPROCESSOR|Unterminated #if|0
+35|PREPROCESSOR|Unterminated #include file name: [%0]|1
+36|PREPROCESSOR|Unknown preprocessor directive: <%0>|1
+37|PREPROCESSOR|'#' sign in the middle of line: [%0]|1
+38|PREPROCESSOR|#define args list: ',' of '(' required: <%0>|1
+39|PREPROCESSOR|#define arguments: Identifier or '...' required: <%0>|1
+40|PREPROCESSOR|#define args list: no arguments allowed after '...': <%0>|1
+41|PREPROCESSOR|#include: File name required: <%0>|1
+42|PREPROCESSOR|#include of compilation units is not supported now|0
+43|PREPROCESSOR|System include file found in user include path|0
+44|PREPROCESSOR|#include nested too deeply; max %0 nested includes allowed|1
+45|PREPROCESSOR|Include file "%0" not found|1
+46|PREPROCESSOR|Include file "%0" name is not valid|1
+47|PREPROCESSOR|Divide by zero at <%0>|1
+48|PP_WARNING|Trigraphs are obsolete|1
+49|PREPROCESSOR|#%0: Unexpected `%1'|2
+50|PREPROCESSOR|#%0: Identifier required|1
+51|PREPROCESSOR|Extra symbols at the #%1 statement end: <%0>|2
+52|PP_WARNING|#include: I/O error in processing: <%0>: %1|2
+53|INTENTION|split && into if's|0
+54|INTENTION|replce 'for' by 'while'|0
+55|MODE|`const' qualifier for non method function|1
+56|MODE|`static' member qualifier|1
+57|MODE|illegal %0conversion from `%1' to `%2'|3
+58|WARNING|%0conversion from `%1' to `%2'|3
+59|MODE|invalid # of args|0
+60|MODE|type not a parent|0
+61|MODE|not a field|0
+62|MODE|single value should be used for reference initialization|0
+63|MODE|this field can't be initialized|0
+64|MODE|`restrict' arrays allowed in pure C99 or pure GNU C only|0
+65|MODE|expression required|0
+66|MODE|constant expression required|0
+67|MODE|type required|0
+68|MODE|pointer type required|0
+69|MODE|integer types required|0
+70|MODE|return value required|0
+71|MODE|member pointer required|0
+72|MODE|non-const value required|0
+73|MODE|lvalue required|0
+74|MODE|namespace required instead of `%0'|1
+75|MODE|class or struct required|0
+76|MODE|arithmetic type required instead of `%0'|1
+77|MODE|integral type required instead of `%0'|1
+78|MODE|no operator for args|0
+79|MODE|different # of forward template args|0
+80|MODE|no declaration for explicit specialization|0
+81|MODE|invalid access level|0
+82|MODE|invalid `this' access level|0
+83|MODE|invalid types of '[]'|0
+84|MODE|no constructor for|0
+85|MODE|`this' outside of the class|0
+86|MODE|Selector type is not a subcclass of base|0
+87|MODE|too many initializers|0
+88|MODE|non-vector variable initialized|0
+89|MODE|Labeled field initializer not in structure|0
+90|MODE|Undefined field|0
+91|MODE|Field initialized by non-struct value|0
+92|MODE|generic type w/o args|0
+93|MODE|no prev. declaration in class|0
+94|MODE|method scope modifier not in class decl|0
+95|MODE|Variable of abstract type can't be declared|0
+96|MODE|too low args|0
+97|MODE|too many args|0
+98|MODE|too low template args|0
+99|MODE|too many template args|0
+100|MODE|generic: invalid # of args|0
+101|MODE|No applicable function found|0
+102|MODE|Too many candidates|0
+103|MODE|Internal: get_assoc_scope: Recursive type|2
+104|MODE|typedef reference `%0' undef `%1' tag|2
+105|MODE|invalid # of args: %0 args required|1
+106|MODE|unification error: `%0' with `%1'|2
+107|MODE|template required instead of `%0'|2
+108|MODE|non-const method called from const object|0
+109|MODE|Field section from type name should use '::'|0
+110|MODE|'->' required instead of '.'|0
+111|MODE|class doesn't contain operator `->'|0
+112|MODE|void function cannot return value|0
+113|WARNING|void function returns void value|0
+114|WARNING|an explicit specialization must be preceded by `template<>'|0
+115|WARNING|comparison between `%0' and `%1'|2
+116|WARNING|member can be accessed statically|0
+117|WARNING|Block can be replaced by ';'|0
+118|WARNING|`{' and '}` can be removed|0
+120|WARNING|%0 will be initialized after %1|2
+121|MODE|struct or namespace required instead of `%0'|1
+122|MODE|incomplete type `%0'|1
+123|WARNING|possible error: obsolete ANSI C var args syntax used with non empty args list: use `...' or `void'|0
+124|WARNING|implicit declaration of function `%0'|1
+125|DEBUG|#if condition evaluation result = %0|1
+<OK:list-errors:0>
+<OK:idle:20>
+<OK:quit:0>

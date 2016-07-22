@@ -1,0 +1,69 @@
+source "c:\\Users\\neusoft\\.IntelliJIdea14\\config\\plugins\\CppTools\\lib\\profile.tcl"
+# version 0.8.3 (Win32) build no. 1 on Feb 28 2012 14:45:38
+# Command: "C:/Users/neusoft/.IntelliJIdea14/config/plugins/CppTools/lib/cfserver.exe" --idea --catchexceptions --inLogName C:\\Users\\neusoft\\.IntelliJIdea14\\config\\plugins\\CppTools\\logs\\proxychains-3.1\in --outLogName C:\\Users\\neusoft\\.IntelliJIdea14\\config\\plugins\\CppTools\\logs\\proxychains-3.1\out
+# Library: $Id: lib.tcl, 2010/11/26 14:27 shd Exp $
+#timer: 0.002
+source "C:\\Users\\neusoft\\.IntelliJIdea14\\config\\plugins\\CppTools\\lib\\lib.tcl"
+#timer: 0.029
+use-abs-path
+begin-config cmode
+vc
+#timer: 0.049
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\PlatformSDK\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\atlmfc\\include"
+define WIN32 "1"
+define NDEBUG "1"
+define _WINDOWS "1"
+define _MBCS "1"
+define _AFXDLL "1"
+define _WIN32 "1"
+warning -implicit_cast_to_bool
+warning +name_never_referenced
+warning -name_used_only_once
+warning +redundant_cast
+warning +redundant_qualifier
+warning +static_call_from_value
+warning -redundant_brackets
+warning +report_multiple_defs
+option +out_errorcodes
+end-config
+begin-config cppmode
+vc++
+#timer: 0.05
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\PlatformSDK\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\atlmfc\\include"
+define WIN32 "1"
+define NDEBUG "1"
+define _WINDOWS "1"
+define _MBCS "1"
+define _AFXDLL "1"
+define _WIN32 "1"
+warning -implicit_cast_to_bool
+warning +name_never_referenced
+warning -name_used_only_once
+warning +redundant_cast
+warning +redundant_qualifier
+warning +static_call_from_value
+warning -redundant_brackets
+warning +report_multiple_defs
+option +out_errorcodes
+end-config
+unused
+startup
+idle
+hilight
+symtab
+gc
+available-quick-fixes
+list-errors
+#timer: 0.66
+analyze -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 7.986
+idle -n 0
+#timer: 3199.38
+quit

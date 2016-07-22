@@ -1,0 +1,50 @@
+{
+  "java": {
+    "version": "1.8.0_77",
+    "download": "http://www.oracle.com/technetwork/java/javaseproducts/downloads/index.html"
+  },
+  "ideaVersions": {
+    "downloadUrlLatest": "https://www.jetbrains.com/idea/download",
+    "downloadUrlPrevious": "https://confluence.jetbrains.com/display/IntelliJIDEA/Previous+IntelliJ+IDEA+Releases",
+    "latest": {
+      "release": "20161",
+      "latestVersion": "2016.1.1"
+    },
+    "releases": [
+      {
+        "release": "130",
+        "latestVersion": "13.0.4"
+      },
+      {
+        "release": "131",
+        "latestVersion": "13.1.6"
+      },
+      {
+        "release": "140",
+        "latestVersion": "14.0.4"
+      },
+      {
+        "release": "141",
+        "latestVersion": "14.1.6"
+      },
+      {
+        "release": "150",
+        "latestVersion": "15.0.5"
+      },
+      {
+        "release": "20161",
+        "latestVersion": "2016.1.1"
+      }
+    ]
+  },
+  "optimizer": {
+    "components": {
+      "installJRebel": "true",
+      "phoneField": "true",
+      "numberOfDevelopers": "true"
+    },
+    "configuration": {
+      "blockedDomains": []
+    }
+  }
+}

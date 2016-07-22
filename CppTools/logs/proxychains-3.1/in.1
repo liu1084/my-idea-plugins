@@ -1,0 +1,1144 @@
+#timer: 0.001
+source "c:\\Users\\neusoft\\.IntelliJIdea14\\config\\plugins\\CppTools\\lib\\profile.tcl"
+# version 0.8.3 (Win32) build no. 1 on Feb 28 2012 14:45:38
+# Command: "C:/Users/neusoft/.IntelliJIdea14/config/plugins/CppTools/lib/cfserver.exe" --idea --catchexceptions --inLogName C:\\Users\\neusoft\\.IntelliJIdea14\\config\\plugins\\CppTools\\logs\\proxychains-3.1\in --outLogName C:\\Users\\neusoft\\.IntelliJIdea14\\config\\plugins\\CppTools\\logs\\proxychains-3.1\out
+# Library: $Id: lib.tcl, 2010/11/26 14:27 shd Exp $
+#timer: 0.003
+source "C:\\Users\\neusoft\\.IntelliJIdea14\\config\\plugins\\CppTools\\lib\\lib.tcl"
+#timer: 0.004
+use-abs-path
+begin-config cmode
+vc
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\PlatformSDK\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\atlmfc\\include"
+define WIN32 "1"
+define NDEBUG "1"
+define _WINDOWS "1"
+define _MBCS "1"
+define _AFXDLL "1"
+define _WIN32 "1"
+warning -implicit_cast_to_bool
+warning +name_never_referenced
+warning -name_used_only_once
+#timer: 0.005
+warning +redundant_cast
+warning +redundant_qualifier
+warning +static_call_from_value
+warning -redundant_brackets
+warning +report_multiple_defs
+option +out_errorcodes
+end-config
+begin-config cppmode
+vc++
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\PlatformSDK\\include"
+system-include-path "c:\\Program Files\\Microsoft Visual Studio .NET 2012\\vc10\\atlmfc\\include"
+define WIN32 "1"
+define NDEBUG "1"
+define _WINDOWS "1"
+define _MBCS "1"
+define _AFXDLL "1"
+define _WIN32 "1"
+warning -implicit_cast_to_bool
+warning +name_never_referenced
+warning -name_used_only_once
+warning +redundant_cast
+warning +redundant_qualifier
+warning +static_call_from_value
+warning -redundant_brackets
+warning +report_multiple_defs
+option +out_errorcodes
+end-config
+unused
+startup
+idle
+hilight
+symtab
+gc
+available-quick-fixes
+list-errors
+#timer: 17.174
+idle -n 0
+#timer: 84.587
+analyze -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.c" 0 end
+fontify -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.c" 0 end "buf" 0
+list-parents -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.c" 0 end
+inspect -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.c" 0 end
+#timer: 85.643
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.c"
+#timer: 86.473
+analyze -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 86.483
+fontify -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 0 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 86.983
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h"
+#timer: 220.119
+changed -n 1 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "\r\n" 1965 1965
+#timer: 220.236
+changed -n 2 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "\r\n" 1966 1966
+#timer: 220.537
+analyze -n 2 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+fontify -n 2 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 2 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 2 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 221.159
+changed -n 3 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "typedef struct\r\n    +{\r\n    +  struct in_addr in_addr, netmask;\r\n    +} localaddr_arg;\r\n    +" 1967 1967
+#timer: 221.478
+analyze -n 3 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 221.479
+fontify -n 3 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 3 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 3 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 223.094
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 1987
+#timer: 224.199
+changed -n 4 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "" 1986 1987
+#timer: 224.527
+analyze -n 4 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 224.53
+fontify -n 4 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 4 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 4 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 224.539
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 1986
+#timer: 224.928
+changed -n 5 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "" 1992 1993
+#timer: 225.246
+analyze -n 5 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+fontify -n 5 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 5 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 5 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 225.729
+changed -n 6 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "" 2031 2032
+#timer: 226.032
+analyze -n 6 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+fontify -n 6 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 6 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 6 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 226.522
+changed -n 7 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "" 2052 2053
+#timer: 226.874
+analyze -n 7 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+fontify -n 7 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 7 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 7 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 230.524
+idle -n 7
+#timer: 239.229
+select "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2111 2111
+#timer: 239.514
+changed -n 8 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "" 2048 2052
+#timer: 239.877
+analyze -n 8 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+fontify -n 8 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 8 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 8 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 240.066
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2103
+#timer: 240.073
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2103
+#timer: 241.407
+idle -n 8
+#timer: 244.159
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2033
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2033
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2033
+#timer: 244.164
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2033
+#timer: 244.72
+changed -n 9 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "" 1982 1986
+#timer: 244.721
+changed -n 10 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "" 1986 1990
+#timer: 244.723
+changed -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "" 2019 2023
+#timer: 245.046
+analyze -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+fontify -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end "buf" 0
+list-parents -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+inspect -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 0 end
+#timer: 245.052
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2021
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2021
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2021
+#timer: 245.053
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2021
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2021
+#timer: 246.423
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2021
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2021
+#timer: 246.442
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\core.h" 2021
+#timer: 253.296
+idle -n 11
+#timer: 269.33
+analyze -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 11 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 269.365
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c"
+#timer: 270.305
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 1074
+#timer: 270.307
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 1074
+#timer: 281.801
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 1074
+#timer: 281.803
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 1074
+#timer: 289.132
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 1074
+#timer: 289.135
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 1074
+#timer: 407.628
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 1074
+#timer: 423.009
+changed -n 12 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n" 1694 1694
+#timer: 423.344
+analyze -n 12 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 12 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 12 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 12 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 423.549
+changed -n 13 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "#define     MAX_LOCALNET 1024" 1695 1695
+#timer: 423.881
+analyze -n 13 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 13 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 13 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 13 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 431.669
+idle -n 13
+#timer: 464.594
+changed -n 14 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n\t" 2122 2122
+#timer: 464.799
+changed -n 15 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n\t" 2124 2124
+#timer: 465.085
+analyze -n 15 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 15 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 15 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 15 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 465.356
+changed -n 16 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 2125 2126
+#timer: 465.673
+analyze -n 16 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 16 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 16 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 16 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 466.102
+changed -n 17 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "+localaddr_arg localnet_addr;\r\n    +size_t num_localnet_addr = 0;" 2125 2125
+#timer: 466.394
+analyze -n 17 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 17 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 17 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 17 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 469.407
+changed -n 18 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 2155 2160
+#timer: 469.74
+analyze -n 18 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 18 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 18 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 18 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 469.753
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2155
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2155
+#timer: 469.754
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2155
+#timer: 469.761
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2155
+#timer: 470.296
+changed -n 19 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 2125 2126
+#timer: 470.605
+analyze -n 19 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 19 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 19 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 19 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 470.619
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2125
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2125
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2125
+#timer: 470.624
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2125
+#timer: 471.456
+changed -n 20 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 2123 2124
+#timer: 471.82
+analyze -n 20 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 20 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 20 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 20 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 472.055
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2124
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2124
+#timer: 472.065
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2124
+#timer: 473.023
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2124
+#timer: 473.024
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2124
+#timer: 474.402
+idle -n 20
+#timer: 485.018
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2196
+#timer: 485.019
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 2196
+#timer: 556.488
+changed -n 21 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n\t" 4281 4281
+#timer: 556.816
+analyze -n 21 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 556.819
+fontify -n 21 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 21 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 21 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 560.305
+idle -n 21
+#timer: 577.328
+changed -n 22 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 4282 4283
+#timer: 577.779
+analyze -n 22 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 22 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 22 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 22 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 579.116
+idle -n 22
+#timer: 586.265
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4443
+#timer: 586.266
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4443
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4443
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4443
+#timer: 586.272
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4443
+#timer: 594.216
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4443
+#timer: 594.22
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4443
+#timer: 609.587
+changed -n 23 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n\t" 4487 4487
+#timer: 609.925
+analyze -n 23 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 23 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 23 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 23 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 610.011
+changed -n 24 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "char local_in_addr, local_netmask;" 4489 4489
+#timer: 610.329
+analyze -n 24 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 610.33
+fontify -n 24 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 24 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 24 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 615.036
+idle -n 24
+#timer: 629.702
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6416
+#timer: 629.703
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6416
+#timer: 634.092
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4542
+#timer: 634.093
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4542
+#timer: 639.618
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4542
+#timer: 639.644
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4542
+#timer: 654.037
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4542
+#timer: 654.042
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4542
+#timer: 660.95
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4542
+#timer: 660.977
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 4542
+#timer: 723.312
+changed -n 25 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n\t\t\t\t\t" 6069 6069
+#timer: 723.644
+analyze -n 25 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 25 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 25 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 25 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 724.095
+changed -n 26 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6074 6075
+#timer: 724.42
+analyze -n 26 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 26 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 26 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 26 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 727.981
+changed -n 27 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "}" 6074 6074
+#timer: 728.325
+analyze -n 27 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 27 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 27 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 27 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 728.822
+changed -n 28 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "e" 6075 6075
+#timer: 728.901
+changed -n 29 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "l" 6076 6076
+#timer: 728.978
+changed -n 30 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "s" 6077 6077
+#timer: 729.107
+changed -n 31 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "e" 6078 6078
+#timer: 729.443
+analyze -n 31 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 31 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 31 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 31 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 729.464
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6075
+#timer: 729.577
+changed -n 32 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" " " 6079 6079
+#timer: 729.844
+changed -n 33 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "i" 6080 6080
+#timer: 729.937
+changed -n 34 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "f" 6081 6081
+#timer: 730.063
+changed -n 35 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" " " 6082 6082
+#timer: 730.376
+analyze -n 35 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 35 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 35 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 35 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 730.448
+changed -n 36 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "(" 6083 6083
+#timer: 730.449
+changed -n 37 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" ")" 6084 6084
+#timer: 730.785
+analyze -n 37 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 37 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 37 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 37 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 733.439
+idle -n 37
+#timer: 744.392
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6084
+#timer: 744.397
+changed -n 38 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "strstr(buff,\"localnet\")" 6084 6084
+#timer: 744.429
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6091
+#timer: 744.493
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6135
+#timer: 744.768
+analyze -n 38 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 38 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 38 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 38 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 744.898
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6107
+#timer: 746.923
+changed -n 39 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "{" 6108 6108
+#timer: 747.271
+analyze -n 39 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 747.272
+fontify -n 39 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 39 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 39 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 747.869
+changed -n 40 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n\t\t\t\t" 6109 6109
+#timer: 748.202
+analyze -n 40 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 40 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 40 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 40 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 750.892
+idle -n 40
+#timer: 786.914
+changed -n 41 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "sscanf(buff,\"%s %16 %16s\", user, &local_in_addr, &local_netmask) ;\r\n     PDEBUG(\"added localnet = %s%s\\n\", &local_in_addr, &local_netmask);\r\n              if (num_localnet_addr < MAX_LOCALNET) {\r\n                int error;\r\n                error = inet_pton(AF_INET, local_in_addr, &localnet_addr.in_addr);\r\n                if (error <= 0) {\r\n                  fprintf(stderr, \"localnet address error\\n\");\r\n                  exit(1);\r\n                }\r\n                error = inet_pton(AF_INET, local_netmask + 1, &localnet_addr.netmask);\r\n                if (error <= 0) {\r\n                  fprintf(stderr, \"localnet address error\\n\");\r\n                  exit(1);\r\n                }            \r\n                ++num_localnet_addr;\r\n              } else {\r\n                fprintf(stderr, \"# of localnet exceed %d.\\n\", MAX_LOCALNET);\r\n              }" 6114 6114
+#timer: 786.947
+changed -n 42 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6181 6181
+#timer: 786.948
+changed -n 43 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6269 6269
+#timer: 786.951
+changed -n 44 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6339 6339
+#timer: 786.952
+changed -n 45 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6382 6382
+#timer: 786.959
+changed -n 46 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6481 6481
+changed -n 47 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6531 6531
+changed -n 48 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6610 6610
+changed -n 49 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6653 6653
+#timer: 786.96
+changed -n 50 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6687 6687
+#timer: 786.961
+changed -n 51 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6790 6790
+#timer: 786.963
+changed -n 52 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6840 6840
+#timer: 786.964
+changed -n 53 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6919 6919
+#timer: 786.965
+changed -n 54 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 6962 6962
+#timer: 786.966
+changed -n 55 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 7008 7008
+#timer: 786.969
+changed -n 56 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 7061 7061
+#timer: 786.971
+changed -n 57 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 7100 7100
+changed -n 58 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "                " 7193 7193
+#timer: 786.987
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6719
+#timer: 787.278
+analyze -n 58 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 58 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 58 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 58 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 789.706
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6114
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6114
+#timer: 789.725
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6114
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6114
+#timer: 790.039
+changed -n 59 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6114 6114
+#timer: 790.395
+analyze -n 59 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 59 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 59 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 59 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 790.421
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6118
+#timer: 790.424
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6118
+#timer: 790.425
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6118
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6118
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6118
+#timer: 793.78
+changed -n 60 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6202 6206
+changed -n 61 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6295 6299
+#timer: 793.783
+changed -n 62 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6363 6367
+changed -n 63 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6402 6406
+#timer: 793.784
+changed -n 64 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6497 6501
+changed -n 65 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6545 6549
+#timer: 793.787
+changed -n 66 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6620 6624
+#timer: 793.812
+changed -n 67 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6657 6661
+changed -n 68 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6687 6691
+#timer: 793.813
+changed -n 69 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6786 6790
+changed -n 70 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6834 6838
+changed -n 71 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6909 6913
+changed -n 72 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6946 6950
+changed -n 73 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6988 6992
+changed -n 74 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7035 7039
+changed -n 75 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7072 7076
+#timer: 793.82
+changed -n 76 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7159 7163
+#timer: 794.059
+changed -n 77 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6198 6202
+#timer: 794.06
+changed -n 78 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6287 6291
+#timer: 794.061
+changed -n 79 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6351 6355
+#timer: 794.062
+changed -n 80 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6386 6390
+#timer: 794.063
+changed -n 81 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6477 6481
+#timer: 794.065
+changed -n 82 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6521 6525
+#timer: 794.066
+changed -n 83 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6592 6596
+#timer: 794.068
+changed -n 84 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6625 6629
+#timer: 794.069
+changed -n 85 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6651 6655
+#timer: 794.07
+changed -n 86 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6746 6750
+#timer: 794.071
+changed -n 87 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6790 6794
+#timer: 794.072
+changed -n 88 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6861 6865
+#timer: 794.074
+changed -n 89 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6894 6898
+changed -n 90 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6932 6936
+#timer: 794.075
+changed -n 91 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6975 6979
+#timer: 794.076
+changed -n 92 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7008 7012
+changed -n 93 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7091 7095
+#timer: 794.319
+changed -n 94 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6194 6198
+#timer: 794.32
+changed -n 95 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6279 6283
+#timer: 794.322
+changed -n 96 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6339 6343
+#timer: 794.323
+changed -n 97 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6370 6374
+#timer: 794.325
+changed -n 98 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6457 6461
+#timer: 794.326
+changed -n 99 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6497 6501
+#timer: 794.328
+changed -n 100 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6564 6568
+#timer: 794.346
+changed -n 101 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6593 6597
+#timer: 794.347
+changed -n 102 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6615 6619
+#timer: 794.349
+changed -n 103 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6706 6710
+changed -n 104 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6746 6750
+changed -n 105 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6813 6817
+changed -n 106 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6842 6846
+#timer: 794.35
+changed -n 107 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6876 6880
+changed -n 108 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6915 6919
+#timer: 794.355
+changed -n 109 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6944 6948
+changed -n 110 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7023 7027
+#timer: 794.596
+changed -n 111 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6190 6194
+#timer: 794.598
+changed -n 112 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6271 6275
+#timer: 794.601
+changed -n 113 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6327 6331
+#timer: 794.602
+changed -n 114 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6354 6358
+#timer: 794.604
+changed -n 115 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6437 6441
+#timer: 794.605
+changed -n 116 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6473 6477
+#timer: 794.62
+changed -n 117 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6536 6540
+changed -n 118 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6561 6565
+#timer: 794.621
+changed -n 119 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6579 6583
+changed -n 120 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6666 6670
+changed -n 121 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6702 6706
+changed -n 122 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6765 6769
+#timer: 794.629
+changed -n 123 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6790 6794
+#timer: 794.636
+changed -n 124 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6820 6824
+#timer: 794.637
+changed -n 125 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6855 6859
+changed -n 126 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6880 6884
+changed -n 127 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6955 6959
+#timer: 794.819
+changed -n 128 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6186 6190
+#timer: 794.82
+changed -n 129 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6263 6267
+changed -n 130 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6315 6319
+#timer: 794.821
+changed -n 131 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6338 6342
+#timer: 794.822
+changed -n 132 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6417 6421
+#timer: 794.847
+changed -n 133 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6449 6453
+changed -n 134 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6508 6512
+changed -n 135 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6529 6533
+changed -n 136 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6543 6547
+changed -n 137 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6626 6630
+#timer: 794.849
+changed -n 138 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6658 6662
+changed -n 139 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6717 6721
+changed -n 140 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6738 6742
+changed -n 141 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6764 6768
+changed -n 142 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6795 6799
+#timer: 794.85
+changed -n 143 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6816 6820
+changed -n 144 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6887 6891
+#timer: 795.175
+analyze -n 144 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 144 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 144 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 144 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 795.368
+changed -n 145 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6185 6186
+changed -n 146 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6258 6262
+#timer: 795.369
+changed -n 147 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6306 6310
+changed -n 148 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6325 6329
+changed -n 149 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6400 6404
+changed -n 150 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6428 6432
+changed -n 151 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6483 6487
+changed -n 152 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6500 6504
+#timer: 795.37
+changed -n 153 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6510 6514
+changed -n 154 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6589 6593
+changed -n 155 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6617 6621
+changed -n 156 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6672 6676
+#timer: 795.371
+changed -n 157 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6689 6693
+changed -n 158 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6711 6715
+changed -n 159 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6738 6742
+#timer: 795.372
+changed -n 160 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6755 6759
+changed -n 161 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6822 6826
+#timer: 795.682
+analyze -n 161 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 161 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 161 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 161 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 796.069
+changed -n 162 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6254 6258
+#timer: 796.071
+changed -n 163 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6298 6302
+changed -n 164 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6313 6317
+#timer: 796.072
+changed -n 165 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6384 6388
+changed -n 166 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6408 6412
+#timer: 796.073
+changed -n 167 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6459 6463
+changed -n 168 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6472 6476
+#timer: 796.075
+changed -n 169 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6478 6482
+#timer: 796.078
+changed -n 170 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6553 6557
+#timer: 796.08
+changed -n 171 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6577 6581
+#timer: 796.082
+changed -n 172 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6628 6632
+#timer: 796.084
+changed -n 173 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6641 6645
+#timer: 796.085
+changed -n 174 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6659 6663
+#timer: 796.087
+changed -n 175 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6682 6686
+#timer: 796.089
+changed -n 176 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6695 6699
+#timer: 796.09
+changed -n 177 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6758 6762
+#timer: 796.426
+analyze -n 177 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 177 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 177 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 177 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 798.068
+changed -n 178 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6185 6185
+changed -n 179 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6258 6258
+#timer: 798.069
+changed -n 180 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6306 6306
+#timer: 798.07
+changed -n 181 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6325 6325
+#timer: 798.085
+changed -n 182 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6400 6400
+#timer: 798.097
+changed -n 183 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6428 6428
+#timer: 798.098
+changed -n 184 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6483 6483
+changed -n 185 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6500 6500
+changed -n 186 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6510 6510
+#timer: 798.099
+changed -n 187 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6589 6589
+changed -n 188 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6617 6617
+#timer: 798.1
+changed -n 189 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6672 6672
+changed -n 190 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6689 6689
+changed -n 191 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6711 6711
+changed -n 192 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6738 6738
+changed -n 193 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6755 6755
+#timer: 798.101
+changed -n 194 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6822 6822
+#timer: 798.221
+changed -n 195 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6189 6189
+#timer: 798.222
+changed -n 196 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6266 6266
+#timer: 798.223
+changed -n 197 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6318 6318
+#timer: 798.224
+changed -n 198 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6341 6341
+#timer: 798.226
+changed -n 199 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6420 6420
+#timer: 798.228
+changed -n 200 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6452 6452
+#timer: 798.229
+changed -n 201 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6511 6511
+#timer: 798.23
+changed -n 202 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6532 6532
+#timer: 798.231
+changed -n 203 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6546 6546
+#timer: 798.232
+changed -n 204 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6629 6629
+#timer: 798.252
+changed -n 205 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6661 6661
+#timer: 798.253
+changed -n 206 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6720 6720
+changed -n 207 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6741 6741
+#timer: 798.254
+changed -n 208 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6767 6767
+changed -n 209 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6798 6798
+changed -n 210 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6819 6819
+#timer: 798.255
+changed -n 211 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6890 6890
+#timer: 798.429
+changed -n 212 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6193 6193
+#timer: 798.431
+changed -n 213 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6274 6274
+#timer: 798.432
+changed -n 214 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6330 6330
+#timer: 798.435
+changed -n 215 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6357 6357
+#timer: 798.437
+changed -n 216 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6440 6440
+#timer: 798.439
+changed -n 217 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6476 6476
+#timer: 798.441
+changed -n 218 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6539 6539
+#timer: 798.443
+changed -n 219 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6564 6564
+#timer: 798.445
+changed -n 220 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6582 6582
+#timer: 798.446
+changed -n 221 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6669 6669
+#timer: 798.448
+changed -n 222 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6705 6705
+#timer: 798.45
+changed -n 223 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6768 6768
+#timer: 798.452
+changed -n 224 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6793 6793
+#timer: 798.456
+changed -n 225 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6823 6823
+#timer: 798.458
+changed -n 226 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6858 6858
+changed -n 227 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6883 6883
+#timer: 798.459
+changed -n 228 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6958 6958
+#timer: 798.597
+changed -n 229 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6197 6197
+#timer: 798.599
+changed -n 230 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6282 6282
+#timer: 798.604
+changed -n 231 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6342 6342
+#timer: 798.605
+changed -n 232 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6373 6373
+#timer: 798.606
+changed -n 233 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6460 6460
+#timer: 798.607
+changed -n 234 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6500 6500
+changed -n 235 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6567 6567
+#timer: 798.629
+changed -n 236 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6596 6596
+#timer: 798.633
+changed -n 237 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6618 6618
+#timer: 798.634
+changed -n 238 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6709 6709
+changed -n 239 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6749 6749
+#timer: 798.635
+changed -n 240 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6816 6816
+#timer: 798.636
+changed -n 241 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6845 6845
+#timer: 798.638
+changed -n 242 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6879 6879
+#timer: 798.639
+changed -n 243 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6918 6918
+#timer: 798.64
+changed -n 244 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6947 6947
+#timer: 798.641
+changed -n 245 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 7026 7026
+#timer: 798.952
+analyze -n 245 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 245 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 245 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 245 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 799.008
+changed -n 246 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6201 6201
+#timer: 799.03
+changed -n 247 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6290 6290
+#timer: 799.031
+changed -n 248 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6354 6354
+#timer: 799.032
+changed -n 249 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6389 6389
+changed -n 250 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6480 6480
+#timer: 799.033
+changed -n 251 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6524 6524
+changed -n 252 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6595 6595
+changed -n 253 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6628 6628
+#timer: 799.034
+changed -n 254 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6654 6654
+changed -n 255 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6749 6749
+changed -n 256 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6793 6793
+changed -n 257 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6864 6864
+#timer: 799.035
+changed -n 258 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6897 6897
+changed -n 259 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6935 6935
+changed -n 260 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 6978 6978
+changed -n 261 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 7011 7011
+#timer: 799.036
+changed -n 262 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    " 7094 7094
+#timer: 799.367
+analyze -n 262 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 262 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 262 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 262 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 808.054
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6500
+#timer: 810.463
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6500
+#timer: 813.849
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6294
+#timer: 815.162
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6294
+#timer: 824.84
+changed -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 6902 6914
+#timer: 825.23
+analyze -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6294
+#timer: 825.535
+analyze -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 825.536
+fontify -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 263 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 825.541
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6294
+#timer: 826.726
+idle -n 263
+#timer: 838.248
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6213
+#timer: 838.249
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6213
+#timer: 838.251
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6213
+#timer: 838.253
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6213
+#timer: 838.266
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 6212
+#timer: 849.496
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7587
+#timer: 849.61
+changed -n 264 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    + char str;\r\n    + struct in_addr *p_addr_in;\r\n    +  size_t i;" 7581 7581
+#timer: 849.903
+analyze -n 264 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 264 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 264 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 264 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 852.488
+changed -n 265 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n    " 7646 7646
+#timer: 852.817
+analyze -n 265 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 852.825
+fontify -n 265 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 265 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 265 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 855.465
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7585
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7585
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7585
+#timer: 855.475
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7585
+#timer: 855.476
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7585
+#timer: 856.167
+changed -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7585 7587
+#timer: 856.512
+analyze -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7585
+#timer: 856.818
+analyze -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 266 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 856.87
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7585
+#timer: 857.294
+changed -n 267 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7600 7601
+#timer: 857.477
+changed -n 268 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7599 7600
+#timer: 857.793
+analyze -n 268 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 268 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 268 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 268 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 857.816
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7599
+#timer: 858.557
+changed -n 269 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7632 7633
+#timer: 858.791
+changed -n 270 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7631 7632
+#timer: 859.007
+changed -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7630 7631
+#timer: 859.346
+analyze -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 859.352
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+#timer: 859.363
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+#timer: 859.666
+analyze -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 271 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 859.719
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+#timer: 860.646
+changed -n 272 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7640 7644
+#timer: 861.043
+analyze -n 272 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 272 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 272 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 272 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 861.079
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+#timer: 861.08
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+#timer: 861.095
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+#timer: 862.184
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+#timer: 862.188
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7630
+#timer: 863.572
+idle -n 272
+#timer: 922.52
+changed -n 273 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n\t\t" 7850 7850
+#timer: 922.855
+analyze -n 273 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 922.856
+fontify -n 273 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 273 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 273 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 924.522
+changed -n 274 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "\r\n\t\t" 7853 7853
+#timer: 924.874
+analyze -n 274 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 274 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 274 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 274 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 925.176
+changed -n 275 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7855 7856
+#timer: 925.502
+analyze -n 275 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 275 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 275 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 275 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 928.401
+changed -n 276 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7851 7853
+#timer: 928.762
+analyze -n 276 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 276 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 276 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 276 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 930.158
+idle -n 276
+#timer: 963.133
+changed -n 277 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    \r\n     p_addr_in = &((struct sockaddr_in *)addr)->sin_addr;\r\n    \r\n    //  PDEBUG(\"localnet: %s; \", inet_ntop(AF_INET,\r\n    //                                    &in_addr_localnet, str, sizeof(str)));\r\n    // PDEBUG(\"netmask: %s; \" , inet_ntop(AF_INET,\r\n    //                                    &in_addr_netmask, str, sizeof(str)));\r\n    // PDEBUG(\"target: %s\\n\", inet_ntop(AF_INET, p_addr_in, str, sizeof(str)));\r\n    \r\n      for (i = 0; i < num_localnet_addr; i++) {\r\n        if ((localnet_addr_.in_addr.s_addr & localnet_addr.netmask.s_addr)\r\n            == (p_addr_in->s_addr & localnet_addr.netmask.s_addr))\r\n        {\r\n          PDEBUG(\"accessing localnet using true_connect\\n\");\r\n          return true_connect(sock,addr,len);\r\n        }\r\n      }\r\n     flags=fcntl(sock, F_GETFL, 0);" 7853 7853
+#timer: 963.382
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 7885
+#timer: 963.463
+analyze -n 277 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 277 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 277 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 277 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 967.409
+idle -n 277
+#timer: 978.16
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8600
+#timer: 978.162
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8600
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8600
+#timer: 978.174
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8600
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8600
+#timer: 978.912
+changed -n 278 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 8599 8600
+#timer: 979.231
+analyze -n 278 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 278 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 278 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 278 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 979.245
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8599
+#timer: 979.268
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8599
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8599
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8599
+#timer: 979.277
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8599
+#timer: 979.963
+changed -n 279 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7852 7857
+changed -n 280 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7911 7915
+changed -n 281 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 8256 8260
+#timer: 980.048
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8598
+#timer: 980.125
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8630
+#timer: 980.324
+analyze -n 281 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 281 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 281 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 281 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 980.349
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8586
+#timer: 980.351
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8586
+#timer: 980.368
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8586
+#timer: 987.278
+changed -n 282 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 8582 8617
+#timer: 987.628
+analyze -n 282 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 282 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 282 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 282 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 988.875
+changed -n 283 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "    flags=fcntl(sock, F_GETFL, 0);\r\n" 8582 8582
+#timer: 989.222
+analyze -n 283 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 283 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 283 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 283 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 990.928
+changed -n 284 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 8582 8617
+#timer: 991.277
+analyze -n 284 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 284 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 284 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 284 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 997.094
+idle -n 284
+#timer: 1013.41
+changed -n 285 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 7851 7852
+#timer: 1013.75
+analyze -n 285 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 285 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 285 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 285 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 1021.37
+idle -n 285
+#timer: 1032.64
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8391
+#timer: 1032.64
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8391
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8391
+#timer: 1032.64
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8391
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8391
+#timer: 1035.03
+changed -n 286 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "" 8378 8391
+#timer: 1035.04
+changed -n 287 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" " " 8378 8378
+#timer: 1035.36
+analyze -n 287 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+fontify -n 287 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end "buf" 0
+list-parents -n 287 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+inspect -n 287 "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 0 end
+#timer: 1035.39
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8379
+#timer: 1035.39
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8379
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8379
+goto-def "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8379
+#timer: 1035.42
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8379
+#timer: 1044.31
+idle -n 287
+#timer: 1050.61
+find-usages "D:\\work\\socks\\proxychains-3.1\\proxychains\\libproxychains.c" 8312
+#timer: 2257.08
+quit
